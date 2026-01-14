@@ -1,4 +1,11 @@
 baseURL = 'https://threatbuster.github.io/'
-languageCode = 'en-En'
+languageCode = 'en-us'
 title = 'ThreatBusters'
 theme = 'PaperMod'
+
+[params]
+    env = "production"
+    title = "ThreatBusters"
+    description = "Threat Hunting"
+    defaultTheme = "dark" 
+    showCodeCopyButtons = true
